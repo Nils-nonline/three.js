@@ -37,7 +37,7 @@ class SimplifyModifier {
 	 * @param {Array<string>} [ignoredAttributes=[]] - The attributes to be kept the same and excluded from simplification.
 	 * @return {BufferGeometry} A new, modified geometry.
 	 */
-	modify( geometry, count, ignoredAttributes = []) {
+	modify( geometry, count, ignoredAttributes = [] ) {
 
 		geometry = geometry.clone();
 
