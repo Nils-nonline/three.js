@@ -321,7 +321,7 @@ function computeEdgeCollapseCost( u, v ) {
 
 	}
 
-	if ( ! testCollapse( u, v ) ) return Infinity;
+	if ( ! testCollapse( u, v ) ) console.log( 'a normal flip occured' );
 
 	const amt = edgelength * curvature + borders;
 
